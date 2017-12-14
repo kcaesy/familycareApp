@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorGreen">#26ae90</color>
+    <color name="colorPrimaryDark">#303f9f</color>
+    <color name="colorAccent">#ffd640</color>
+    <color name="colorBlue">#3F51B5</color>
+    <color name="bg_green">#26ae90</color>
+    <color name="bg_navy">#3b4148</color>
+    <color name="btn_login_bg">#eceef1</color>
+    <color name="white">#ffffff</color>
+    <color name="input_login">#222222</color>
+    <color name="input_login_hint">#bdc3c7</color>
+    <color name="skyBlue">#7fe3f4</color>
+
+    <!--new set-->
+    <color name="title_background">#ff355689</color>
+    <color name="foreground1">#355689</color>
+    <color name="foreground2">#ff7081a3</color>
+    <color name="midBlue">#ffd5ddeb</color>
+    <color name="lightBlue">#ffe3e8f1</color>
+
+</resources>

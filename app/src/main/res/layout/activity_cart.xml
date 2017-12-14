@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.familycaretrust.familycaremicro.CartActivity">
+
+    <ListView
+        android:id="@+id/cartList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:background="@color/lightBlue"
+        android:layout_weight="1"></ListView>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#eee"
+        >
+
+        <TextView
+            android:id="@+id/principal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnClear"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Clear"
+            android:background="#d50000"
+            android:textColor="#fff"
+            android:layout_weight="1"/>
+        <Button
+            android:id="@+id/btnAddNom"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Add Nominee"
+            android:background="#FF6D00"
+            android:textColor="#fff"
+            android:layout_weight="1"
+            />
+        <Button
+            android:id="@+id/btnCheckOut"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Pay Out"
+            android:background="#00BFA5"
+            android:textColor="#fff"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+</LinearLayout>
